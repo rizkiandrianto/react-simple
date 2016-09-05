@@ -1,7 +1,10 @@
 # React Simple (react-simple)
-Simple React Boilerplate with Webpack and React Router
+Simple React Boilerplate with Webpack and React Router.
+Fit for every beginners who want to learn react for the first time (like me).
 
-###### How to Reproduce, (init based on http://bit.ly/react-es6-webpack-babel)
+Made it with frustration of ReactJS :D 
+
+### How to Reproduce, (init based on http://bit.ly/react-es6-webpack-babel)
 1. Install Webpack Dev Server globaly : `npm install -g webpack-dev-server`
 2. Create New Folder (name it react-simple for example) and *enter it*
 3. `npm init`
@@ -31,13 +34,14 @@ module.exports = {
 };
 ```
 8. Change the scripts in `package.json`
+
 ```
 "scripts": {
     "start": "webpack-dev-server --hot --progress --colors",
     "build": "webpack --progress --colors"
 }
 ```
-###### How to Use
+### How to Use
 1. `git clone https://github.com/rizkiandrianto/react-simple.git`
 2. `npm install`
 3. `npm start` or `webpack-dev-server --hot --progress --colors`
