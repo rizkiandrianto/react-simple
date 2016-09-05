@@ -1,7 +1,7 @@
 # React Simple (react-simple)
 Simple React Boilerplate with Webpack and React Router
 
-> How to Reproduce, (init based on http://bit.ly/react-es6-webpack-babel)
+###### How to Reproduce, (init based on http://bit.ly/react-es6-webpack-babel)
 1. Install Webpack Dev Server globaly : `npm install -g webpack-dev-server`
 2. Create New Folder (name it react-simple for example) and *enter it*
 3. `npm init`
@@ -37,7 +37,7 @@ module.exports = {
     "build": "webpack --progress --colors"
 }
 ```
-> How to Use
+###### How to Use
 1. `git clone https://github.com/rizkiandrianto/react-simple.git`
 2. `npm install`
 3. `npm start` or `webpack-dev-server --hot --progress --colors`
