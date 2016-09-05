@@ -49,3 +49,6 @@ And then change the scripts in `package.json`
 ###### P.S. :
 *if npm start not working because of 'webpack not installed', install webpack globally `npm install -g webpack`*
 
+### How to Build for Production
+`npm run build`
+
