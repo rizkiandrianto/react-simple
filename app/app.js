@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute, useRouterHistory, Link } from 'react-router';
-import router from './router.js';
 
 
 
@@ -9,8 +8,11 @@ class App extends Component {
 	render(){
 		return(
 			<div>
-				<p>Sempak</p>
-				<Link to="profile">Profile</Link>
+				<p>React Simple</p>
+				<ul>
+					<li><Link to="/">Home</Link></li>
+					<li><Link to="about">About</Link></li>
+				</ul>
 				{this.props.children}
 			</div>
 		)
