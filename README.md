@@ -43,7 +43,7 @@ And then change the scripts in `package.json`
 ```
 ### How to Use
 1. `git clone https://github.com/rizkiandrianto/react-simple.git`
-2. `npm install`
+2. `cd react-simple` and then `npm install`
 3. `npm start` or `webpack-dev-server --hot --progress --colors`
 
 ###### P.S. :
