@@ -7,7 +7,7 @@ class Index extends React.Component {
     return (
     	<div>
     		<h1>Index</h1>
-    		<p> <Hello /> <World /> </p>
+    		<Hello />
     	</div>
     )
   }
